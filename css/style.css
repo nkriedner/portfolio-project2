@@ -67,6 +67,7 @@ nav li a {
 
 p {
   padding: 0 1rem 0.5rem 1rem;
+  font-size: 1.1rem;
 }
 
 .contact-wrapper {
@@ -114,6 +115,26 @@ footer {
   nav li {
     background-color: transparent;
   }
+  .about-wrapper {
+    width: 90%;
+    margin: 0 auto 2rem auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+  .about-wrapper p {
+    margin-top: 0;
+    margin-right: 1rem;
+    text-align: left;
+  }
+  .about-wrapper img {
+    max-width: 45%;
+  }
+
+  /* Temporary */
+  /*.about-wrapper p, .about-wrapper img {
+    border: 1px dotted red;
+  }*/
 
 }
 

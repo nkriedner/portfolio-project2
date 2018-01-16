@@ -11,6 +11,15 @@ img, .wrapper {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
 .about-wrapper p,
 .contact-wrapper p,
 .contact-wrapper span {
@@ -35,11 +44,15 @@ nav ul {
 }
 
 nav li {
-  background-color: white;
+  background-color: #ffc1076e;
   list-style: none;
   font-size: 1.25rem;
   display: block;
   margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+nav li a {
   padding: 0.5rem;
 }
 
@@ -67,10 +80,10 @@ p {
   display: block;
 }
 
-.contact-wrapper a {
+/*.contact-wrapper a {
   text-decoration: none;
   color: black;
-}
+}*/
 
 
 /* FOOTER STYLING */
@@ -79,7 +92,8 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 1rem;
-  font-weight: bold;
+  font-size: 1.2rem;
+  /*font-weight: bold;*/
 }
 
 .mobile-wide {
@@ -96,6 +110,9 @@ footer {
   }
   h1 {
     margin-bottom: 0;
+  }
+  nav li {
+    background-color: transparent;
   }
 
 }

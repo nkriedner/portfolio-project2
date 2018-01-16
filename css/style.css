@@ -11,11 +11,12 @@ img, .wrapper {
 }
 
 
-/*HEADER STYLING*/
+/* HEADER STYLING */
 
 header {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 
 h1 {
@@ -33,4 +34,10 @@ nav li {
   display: block;
   margin: 0.5rem;
   padding: 0.5rem;
+}
+
+/* MAIN STYLING */
+
+p {
+  padding: 0 1rem 0.5rem 1rem;
 }

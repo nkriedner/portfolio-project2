@@ -1,4 +1,26 @@
 
 body {
   font-family: 'Quattrocento Sans', sans-serif;
+  text-align: center;
+}
+
+img, .wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+/*HEADER STYLING*/
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  list-style: none;
 }

@@ -1,6 +1,7 @@
+/* GENERAL STYLING */
 
 body {
-  background-color: lightgrey;
+  background-color: #ffc1073d;
   font-family: 'Quattrocento Sans', sans-serif;
   text-align: center;
 }
@@ -8,6 +9,12 @@ body {
 img, .wrapper {
   max-width: 100%;
   margin: 0 auto;
+}
+
+.about-wrapper p,
+.contact-wrapper p,
+.contact-wrapper span {
+  color: grey;
 }
 
 
@@ -36,8 +43,35 @@ nav li {
   padding: 0.5rem;
 }
 
+
 /* MAIN STYLING */
+
+.portfolio-wrapper {
+  background-color: white;
+  padding: 1.5rem 0;
+  /*border: 1px dotted red;*/
+}
 
 p {
   padding: 0 1rem 0.5rem 1rem;
+}
+
+.contact-wrapper {
+  padding: 2.5rem 0;
+  margin: 0 1.5rem;
+  border-bottom: 1px solid grey;
+}
+
+
+/* FOOTER STYLING */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  font-weight: bold;
+}
+
+.mobile-wide {
+  display: none;
 }

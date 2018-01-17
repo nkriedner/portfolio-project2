@@ -43,8 +43,9 @@ header {
 
 h1 {
   font-family: 'Tangerine', cursive;
-  font-size: 3.8rem;
+  font-size: 3.2rem;
   color: #ff9800;
+  margin-bottom: 15px;
 }
 
 nav ul {
@@ -67,6 +68,10 @@ nav li a {
 
 
 /* MAIN STYLING */
+
+.about-wrapper img  {
+  max-width: 75%;
+}
 
 .portfolio-wrapper {
   background-color: white;
@@ -104,7 +109,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 1rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   /*font-weight: bold;*/
 }
 
@@ -127,6 +132,7 @@ footer {
     justify-content: center;
   }
   h1 {
+    font-size: 3.8rem;
     margin-bottom: 0;
   }
   nav li {

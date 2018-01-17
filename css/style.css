@@ -229,6 +229,16 @@ footer {
   .about-wrapper img {
     margin-right: 0;
   }
+  .skills-section {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .skills-section img {
+    max-width: 50%;
+  }
+  .skills-container {
+    padding-left: 1rem;
+  }
   .portfolio-content {
     max-width: 33%;
   }

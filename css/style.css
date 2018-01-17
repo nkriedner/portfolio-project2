@@ -58,12 +58,20 @@ nav li {
   font-size: 1.25rem;
   display: block;
   margin: 0.5rem;
-  margin: 0.5rem 0;
-  padding: 0.5rem;
+  /*margin: 0.5rem 0;*/
+  /*padding: 0.5rem;*/
+  border-radius: 5%;
 }
 
 nav li a {
+  display: block;
+  /*background-color: red;*/
   padding: 0.5rem;
+  /*border-radius: 25%;*/
+}
+
+nav li a:hover {
+  background-color: #ffc107fc;
 }
 
 
@@ -133,7 +141,7 @@ footer {
   /*font-weight: bold;*/
 }
 
-.mobile-wide {
+.mobile-plus {
   display: none;
 }
 
@@ -157,6 +165,9 @@ footer {
   }
   nav li {
     background-color: transparent;
+  }
+  nav li a {
+    border-radius: 25%;
   }
   .about-wrapper {
     width: 95%;
@@ -183,6 +194,15 @@ footer {
   }
   footer {
     font-size: 1.3rem;
+  }
+  .mobile {
+    display: none;
+  }
+  .mobile-plus {
+    display: flex;
+  }
+  .mobile-plus span {
+    padding-left: 1rem;
   }
 
 }
@@ -216,14 +236,14 @@ footer {
     max-width: 95%;
     margin: 0 auto;
   }
-  .mobile {
+  /*.mobile {
     display: none;
   }
-  .mobile-wide {
+  .mobile-plus {
     display: flex;
   }
-  .mobile-wide span {
+  .mobile-plus span {
     padding-left: 1rem;
-  }
+  }*/
 
 }

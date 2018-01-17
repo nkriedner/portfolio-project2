@@ -69,6 +69,26 @@ nav li a {
 
 /* MAIN STYLING */
 
+.skills-section {
+  background-color: #ffc1076e;
+  max-width: 95%;
+  padding: 2rem 1rem;
+  margin: 2rem auto;
+}
+
+.skills-section ul {
+  padding-left: 0;
+}
+
+.skills-section li {
+  list-style-position: inside;
+  padding: 0.2rem;
+}
+
+.skills-section img {
+  border: 2px solid #ffc107;
+}
+
 .about-wrapper img  {
   max-width: 75%;
 }
